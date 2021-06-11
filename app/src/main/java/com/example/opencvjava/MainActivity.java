@@ -8,10 +8,13 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.util.Log;
 import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+
+import org.opencv.android.OpenCVLoader;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +33,16 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        if (OpenCVLoader.initDebug()) {
+
+            Log.d("Check", "OpenCV configured successfully");
+
+        } else {
+
+            Log.d("Check", "OpenCV is not configured successfully");
+
+        }
     }
 
     @Override
