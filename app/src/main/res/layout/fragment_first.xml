@@ -64,7 +64,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="@string/number_of_coins"
+        android:text="@string/total_value_of_coins"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button_previous"
         app:layout_constraintEnd_toStartOf="@+id/textview_coins_number"

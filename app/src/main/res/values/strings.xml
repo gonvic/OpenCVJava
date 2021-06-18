@@ -8,7 +8,7 @@
     <string name="previous">Previous</string>
     <!-- TextView Strings -->
     <string name="number_of_circles">Number Of Circles:</string>
-    <string name="number_of_coins">Number Of Coins:</string>
+    <string name="total_value_of_coins">Total Value of Coins:</string>
     <string name="number">99999999</string>
     <string name="six_coins">Six Coins</string>
 </resources>
